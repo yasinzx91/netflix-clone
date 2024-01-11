@@ -1,0 +1,25 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-row{
+    display: flex;
+    overflow: scroll;
+    margin-top: 20px;
+}
+
+.movie{
+    width: 100%;
+    height: 200px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.movie:hover{
+    transform: scale(1.06);
+}
